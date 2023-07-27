@@ -1,0 +1,226 @@
+.main h1 {
+  padding-top: 20px;
+  padding-left: 30px;
+}
+
+/* desig css */
+
+.Desig {
+  position: absolute;
+  width: 500px;
+  top: 100px;
+  left: 429px;
+}
+
+.Desig input {
+  position: relative;
+  width: 100%;
+  padding: 20px 10px 10px;
+  background: transparent;
+  outline: none;
+  box-shadow: none;
+  border: none;
+  color: #23242a;
+  font-size: 1em;
+  letter-spacing: 0.05em;
+  transition: 0.5s;
+  z-index: 10;
+}
+
+.Desig span {
+  position: absolute;
+  left: 0;
+  padding: 20px 10px 10px;
+  font-size: 1em;
+  color: #8f8f8f;
+  letter-spacing: 00.05em;
+  transition: 0.5s;
+  pointer-events: none;
+}
+
+.Desig input:valid ~ span,
+.Desig input:focus ~ span {
+  color: #45ffc7;
+  transform: translateX(-10px) translateY(-34px);
+  font-size: 0, 75em;
+}
+
+.Desig i {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 2px;
+  background: #45ffc7;
+  border-radius: 4px;
+  transition: 0.5s;
+  pointer-events: none;
+  z-index: 9;
+}
+
+.Desig input:valid ~ i,
+.Desig input:focus ~ i {
+  height: 44px;
+}
+#Form button {
+  --green: #1bfd9c;
+  font-size: 15px;
+  padding: 0.7em 2.7em;
+  letter-spacing: 0.06em;
+  position: absolute;
+  top: 199px;
+  left: 431px;
+  font-family: inherit;
+  border-radius: 0.6em;
+  overflow: hidden;
+  transition: all 0.3s;
+  line-height: 1.4em;
+  border: 2px solid var(--green);
+  background: linear-gradient(
+    to right,
+    rgba(27, 253, 156, 0.1) 1%,
+    transparent 40%,
+    transparent 60%,
+    rgba(27, 253, 156, 0.1) 100%
+  );
+  color: var(--green);
+  box-shadow: inset 0 0 10px rgba(27, 253, 156, 0.4),
+    0 0 9px 3px rgba(27, 253, 156, 0.1);
+  cursor: pointer;
+}
+
+#Form button:hover {
+  color: #82ffc9;
+  box-shadow: inset 0 0 10px rgba(27, 253, 156, 0.6),
+    0 0 9px 3px rgba(27, 253, 156, 0.2);
+}
+
+#Form button:before {
+  content: "";
+  position: absolute;
+  left: -4em;
+  width: 4em;
+  height: 100%;
+  top: 0;
+  transition: transform 0.4s ease-in-out;
+  background: linear-gradient(
+    to right,
+    transparent 1%,
+    rgba(27, 253, 156, 0.1) 40%,
+    rgba(27, 253, 156, 0.1) 60%,
+    transparent 100%
+  );
+}
+
+#Form button:hover:before {
+  transform: translateX(15em);
+}
+
+/* Main content */
+.Main_Content {
+  position: absolute;
+  top: 318px;
+  left: 450px;
+  width: 67vw;
+  height: 51vh;
+  overflow-y: auto;
+}
+.Main_Content::-webkit-scrollbar {
+  border-radius: 8px;
+  width: 5px;
+  background: rgba(28, 27, 27, 0.54);
+  scroll-behavior: smooth;
+}
+.Main_Content::-webkit-scrollbar-thumb {
+  background-color: #3ffcbdaa;
+  border: 1px solid rgba(39, 33, 33, 0.496);
+  border-radius: 50px;
+}
+.Main_Content table {
+  border-collapse: collapse;
+  width: 100%;
+  font-family: "Poppins", sans-serif;
+  font-size: 15px;
+  /* position: absolute;
+  top: 310px;
+  left: 430px; */
+
+  background: rgba(28, 27, 27, 0.54);
+  border-radius: 16px;
+  box-shadow: 0 5px 32px rgb(0 0 0 / 10%);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+}
+
+.Main_Content th,
+td {
+  text-align: center;
+  padding: 20px;
+  color: #ffffff;
+}
+.Main_Content td {
+  border-bottom: 0.1px solid rgba(229, 226, 226, 0.5);
+}
+.Main_Content th {
+  font-size: 20px;
+  background-color: #3ffcbdaa;
+  color: white;
+}
+
+.Dept {
+  position: absolute;
+  width: 500px;
+  top: 100px;
+  left: 1028px;
+}
+
+.Dept select {
+  position: relative;
+  width: 100%;
+  padding: 20px 10px 10px;
+  background: transparent;
+  outline: none;
+  box-shadow: none;
+  border: none;
+  color: #23242a;
+  font-size: 1em;
+  letter-spacing: 0.05em;
+  transition: 0.5s;
+  z-index: 10;
+}
+
+.Dept span {
+  position: absolute;
+  left: 0;
+  padding: 20px 10px 10px;
+  font-size: 1em;
+  color: #8f8f8f;
+  letter-spacing: 00.05em;
+  transition: 0.5s;
+  pointer-events: none;
+}
+
+.Dept select:valid ~ span,
+.Dept select:focus ~ span {
+  color: #45ffc7;
+  transform: translateX(-10px) translateY(-34px);
+  font-size: 0, 75em;
+}
+
+.Dept i {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 2px;
+  background: #45ffc7;
+  border-radius: 4px;
+  transition: 0.5s;
+  pointer-events: none;
+  z-index: 9;
+}
+
+.Dept select:valid ~ i,
+.Dept select:focus ~ i {
+  height: 44px;
+}

@@ -1,0 +1,466 @@
+.main h1 {
+  padding-left: 50px;
+  padding-top: 30px;
+  padding-bottom: 10px;
+  font-size: 25px;
+}
+/* Designation css */
+
+.Designation {
+  position: absolute;
+  width: 330px;
+  top: 175px;
+  left: 815px;
+}
+
+.Designation input {
+  position: relative;
+  width: 100%;
+  padding: 20px 10px 10px;
+  background: transparent;
+  outline: none;
+  box-shadow: none;
+  border: none;
+  color: #23242a;
+  font-size: 1em;
+  letter-spacing: 0.05em;
+  transition: 0.5s;
+  z-index: 10;
+}
+
+.Designation span {
+  position: absolute;
+  left: 0;
+  padding: 20px 10px 10px;
+  font-size: 1em;
+  color: #8f8f8f;
+  letter-spacing: 00.05em;
+  transition: 0.5s;
+  pointer-events: none;
+}
+
+.Designation input:valid ~ span,
+.Designation input:focus ~ span {
+  color: #45ffc7;
+  transform: translateX(-10px) translateY(-34px);
+  font-size: 0, 75em;
+}
+
+.Designation i {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 2px;
+  background: #45ffc7;
+  border-radius: 4px;
+  transition: 0.5s;
+  pointer-events: none;
+  z-index: 9;
+}
+
+.Designation input:valid ~ i,
+.Designation input:focus ~ i {
+  height: 44px;
+}
+/* Doj css */
+
+.Doj {
+  position: absolute;
+  width: 330px;
+  top: 100px;
+  left: 815px;
+}
+
+.Doj input {
+  position: relative;
+  width: 100%;
+  padding: 20px 10px 10px;
+  background: transparent;
+  outline: none;
+  box-shadow: none;
+  border: none;
+  color: #23242a;
+  font-size: 1em;
+  letter-spacing: 0.05em;
+  transition: 0.5s;
+  z-index: 10;
+}
+
+.Doj span {
+  position: absolute;
+  left: 0;
+  padding: 20px 10px 10px;
+  font-size: 1em;
+  color: #8f8f8f;
+  letter-spacing: 00.05em;
+  transition: 0.5s;
+  pointer-events: none;
+}
+
+.Doj input:valid ~ span,
+.Doj input:focus ~ span {
+  color: #45ffc7;
+  transform: translateX(-10px) translateY(-34px);
+  font-size: 0, 75em;
+}
+
+.Doj i {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 2px;
+  background: #45ffc7;
+  border-radius: 4px;
+  transition: 0.5s;
+  pointer-events: none;
+  z-index: 9;
+}
+
+.Doj input:valid ~ i,
+.Doj input:focus ~ i {
+  height: 44px;
+}
+
+/* employer css */
+
+.employer {
+  position: absolute;
+  width: 330px;
+  top: 100px;
+  left: 445px;
+}
+
+.employer input {
+  position: relative;
+  width: 100%;
+  padding: 20px 10px 10px;
+  background: transparent;
+  outline: none;
+  box-shadow: none;
+  border: none;
+  color: #23242a;
+  font-size: 1em;
+  letter-spacing: 0.05em;
+  transition: 0.5s;
+  z-index: 10;
+}
+
+.employer span {
+  position: absolute;
+  left: 0;
+  padding: 20px 10px 10px;
+  font-size: 1em;
+  color: #8f8f8f;
+  letter-spacing: 00.05em;
+  transition: 0.5s;
+  pointer-events: none;
+}
+
+.employer input:valid ~ span,
+.employer input:focus ~ span {
+  color: #45ffc7;
+  transform: translateX(-10px) translateY(-34px);
+  font-size: 0, 75em;
+}
+
+.employer i {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 2px;
+  background: #45ffc7;
+  border-radius: 4px;
+  transition: 0.5s;
+  pointer-events: none;
+  z-index: 9;
+}
+
+.employer input:valid ~ i,
+.employer input:focus ~ i {
+  height: 44px;
+}
+/* salary css */
+
+.salary {
+  position: absolute;
+  width: 330px;
+  left: 445px;
+  top: 175px;
+}
+
+.salary input {
+  position: relative;
+  width: 100%;
+  padding: 20px 10px 10px;
+  background: transparent;
+  outline: none;
+  box-shadow: none;
+  border: none;
+  color: #23242a;
+  font-size: 1em;
+  letter-spacing: 0.05em;
+  transition: 0.5s;
+  z-index: 10;
+}
+
+.salary span {
+  position: absolute;
+  left: 0;
+  padding: 20px 10px 10px;
+  font-size: 1em;
+  color: #8f8f8f;
+  letter-spacing: 00.05em;
+  transition: 0.5s;
+  pointer-events: none;
+}
+
+.salary input:valid ~ span,
+.salary input:focus ~ span {
+  color: #45ffc7;
+  transform: translateX(-10px) translateY(-34px);
+  font-size: 0, 75em;
+}
+
+.salary i {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 2px;
+  background: #45ffc7;
+  border-radius: 4px;
+  transition: 0.5s;
+  pointer-events: none;
+  z-index: 9;
+}
+
+.salary input:valid ~ i,
+.salary input:focus ~ i {
+  height: 44px;
+}
+
+/* Dol css */
+
+.Dol {
+  position: absolute;
+  width: 330px;
+  top: 100px;
+  left: 1185px;
+}
+
+.Dol input {
+  position: relative;
+  width: 100%;
+  padding: 20px 10px 10px;
+  background: transparent;
+  outline: none;
+  box-shadow: none;
+  border: none;
+  color: #23242a;
+  font-size: 1em;
+  letter-spacing: 0.05em;
+  transition: 0.5s;
+  z-index: 10;
+}
+
+.Dol span {
+  position: absolute;
+  left: 0;
+  padding: 20px 10px 10px;
+  font-size: 1em;
+  color: #8f8f8f;
+  letter-spacing: 00.05em;
+  transition: 0.5s;
+  pointer-events: none;
+}
+
+.Dol input:valid ~ span,
+.Dol input:focus ~ span {
+  color: #45ffc7;
+  transform: translateX(-10px) translateY(-34px);
+  font-size: 0, 75em;
+}
+
+.Dol i {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 2px;
+  background: #45ffc7;
+  border-radius: 4px;
+  transition: 0.5s;
+  pointer-events: none;
+  z-index: 9;
+}
+
+.Dol input:valid ~ i,
+.Dol input:focus ~ i {
+  height: 44px;
+}
+/* Btn css */
+#Register_Form button {
+  --green: #1bfd9c;
+  font-size: 15px;
+  padding: 0.7em 2.7em;
+  letter-spacing: 0.06em;
+  position: absolute;
+  top: 269px;
+  left: 450px;
+  font-family: inherit;
+  border-radius: 0.6em;
+  overflow: hidden;
+  transition: all 0.3s;
+  line-height: 1.4em;
+  border: 2px solid var(--green);
+  background: linear-gradient(
+    to right,
+    rgba(27, 253, 156, 0.1) 1%,
+    transparent 40%,
+    transparent 60%,
+    rgba(27, 253, 156, 0.1) 100%
+  );
+  color: var(--green);
+  box-shadow: inset 0 0 10px rgba(27, 253, 156, 0.4),
+    0 0 9px 3px rgba(27, 253, 156, 0.1);
+  cursor: pointer;
+}
+
+#Register_Form button:hover {
+  color: #82ffc9;
+  box-shadow: inset 0 0 10px rgba(27, 253, 156, 0.6),
+    0 0 9px 3px rgba(27, 253, 156, 0.2);
+}
+
+#Register_Form button:before {
+  content: "";
+  position: absolute;
+  left: -4em;
+  width: 4em;
+  height: 100%;
+  top: 0;
+  transition: transform 0.4s ease-in-out;
+  background: linear-gradient(
+    to right,
+    transparent 1%,
+    rgba(27, 253, 156, 0.1) 40%,
+    rgba(27, 253, 156, 0.1) 60%,
+    transparent 100%
+  );
+}
+
+#Register_Form button:hover:before {
+  transform: translateX(15em);
+}
+
+/* Main content */
+.Main_Content {
+  position: absolute;
+  top: 380px;
+  left: 450px;
+  width: 67vw;
+  height: 51vh;
+  overflow-y: auto;
+}
+.Main_Content::-webkit-scrollbar {
+  border-radius: 8px;
+  width: 5px;
+  background: rgba(28, 27, 27, 0.54);
+  scroll-behavior: smooth;
+}
+.Main_Content::-webkit-scrollbar-thumb {
+  background-color: #3ffcbdaa;
+  border: 1px solid rgba(39, 33, 33, 0.496);
+  border-radius: 50px;
+}
+.Main_Content table {
+  border-collapse: collapse;
+  width: 100%;
+  font-family: "Poppins", sans-serif;
+  font-size: 15px;
+  /* position: absolute;
+  top: 310px;
+  left: 430px; */
+
+  background: rgba(28, 27, 27, 0.54);
+  border-radius: 16px;
+  box-shadow: 0 5px 32px rgb(0 0 0 / 10%);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+}
+
+.Main_Content th,
+td {
+  text-align: center;
+  padding: 20px;
+  color: #ffffff;
+}
+.Main_Content td {
+  border-bottom: 0.1px solid rgba(229, 226, 226, 0.5);
+}
+.Main_Content th {
+  font-size: 20px;
+  background-color: #3ffcbdaa;
+  color: white;
+}
+
+.Name {
+  position: absolute;
+  width: 330px;
+  top: 175px;
+  left: 1185px;
+}
+
+.Name select {
+  position: relative;
+  width: 100%;
+  padding: 20px 10px 10px;
+  background: transparent;
+  outline: none;
+  box-shadow: none;
+  border: none;
+  color: #23242a;
+  font-size: 1em;
+  letter-spacing: 0.05em;
+  transition: 0.5s;
+  z-index: 10;
+}
+
+.Name span {
+  position: absolute;
+  left: 0;
+  padding: 20px 10px 10px;
+  font-size: 1em;
+  color: #8f8f8f;
+  letter-spacing: 00.05em;
+  transition: 0.5s;
+  pointer-events: none;
+}
+
+.Name select:valid ~ span,
+.Name select:focus ~ span {
+  color: #45ffc7;
+  transform: translateX(-10px) translateY(-34px);
+  font-size: 0, 75em;
+}
+
+.Name i {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 2px;
+  background: #45ffc7;
+  border-radius: 4px;
+  transition: 0.5s;
+  pointer-events: none;
+  z-index: 9;
+}
+
+.Name select:valid ~ i,
+.Name select:focus ~ i {
+  height: 44px;
+}

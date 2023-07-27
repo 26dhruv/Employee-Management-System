@@ -1,0 +1,350 @@
+@import url("https://fonts.googleapis.com/css?family=Poppins:400,500,600,700&display=swap");
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+span {
+  color: white !important;
+}
+body {
+  background-image: url(../Pictures/guns-bN5JPdkjJaw-unsplash.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.main h1 {
+  color: #ffffff;
+  font-family: "poppins", sans-serif;
+  font-weight: 600;
+  position: relative;
+  padding: 20px 0px 0px 90px;
+  text-decoration: underline 2px solid white;
+  text-underline-offset: 10px;
+}
+.navbar {
+  height: 8vh;
+  width: 72vw;
+  position: absolute;
+  top: 10px;
+  left: 400px;
+  background: rgba(28, 27, 27, 0.744);
+  border-radius: 16px;
+  box-shadow: 0 5px 32px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(5.7px);
+  -webkit-backdrop-filter: blur(5.7px);
+  border: 1px solid rgb(206, 217, 239, 0.3);
+}
+.navbar h2 {
+  position: relative;
+  font-family: "poppins", sans-serif;
+  font-weight: 600;
+  font-size: x-large;
+  padding-left: 37px;
+  padding-top: 15px;
+  color: #ffffff;
+}
+.profile {
+  position: absolute;
+  top: 20px;
+  left: 110px;
+  height: 70px;
+  width: 70px;
+  background: url(../Pictures/Profile-Pic.svg);
+  background-image: contain;
+  background-repeat: round;
+  border-radius: 50%;
+}
+.sidebar {
+  position: absolute;
+  width: 18vw;
+  height: 85vh;
+  top: 90px;
+  left: 40px;
+  background: rgba(28, 27, 27, 0.744);
+  border-radius: 16px;
+  box-shadow: 0 5px 32px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(5.7px);
+  -webkit-backdrop-filter: blur(5.7px);
+  border: 1px solid rgb(206, 217, 239, 0.3);
+  overflow: hidden;
+  z-index: 10;
+}
+.sidebar ul {
+  list-style: none;
+  position: relative;
+  left: 26px;
+  top: 120px;
+  font-family: "poppins", sans-serif;
+  font-size: large;
+  font-weight: 400;
+  word-spacing: 3px;
+}
+.sidebar ul li {
+  margin-top: 30px;
+}
+.sidebar ul li a {
+  color: #ffffff;
+  text-decoration: none;
+  display: inline-block;
+  width: 242px;
+  height: 41px;
+  padding: 6px;
+  transition: linear 200ms;
+}
+.sidebar ul ul li a {
+  width: 220px;
+  font-size: 17px;
+  transition: linear 200ms;
+}
+.sidebar ul li a:hover {
+  color: aquamarine;
+  background-color: rgb(64, 63, 80);
+  border-radius: 10px;
+  padding-left: 20px;
+}
+.sidebar ul ul {
+  position: static;
+  padding-left: 40px;
+  display: none;
+}
+.emp-show li:last-child a {
+  height: 70px;
+}
+.sidebar ul .emp-show.show {
+  display: block;
+}
+
+/* btncss */
+#Logout {
+  --green: #1bfd9c;
+  font-size: 14px;
+  padding: 0.7em 2.7em;
+  letter-spacing: 0.06em;
+  position: absolute;
+  top: 10px;
+  width: 120px;
+  right: 80px;
+  font-family: inherit;
+  border-radius: 0.6em;
+  overflow: hidden;
+  transition: all 0.3s;
+  line-height: 1.4em;
+  border: 2px solid var(--green);
+  background: linear-gradient(
+    to right,
+    rgba(27, 253, 156, 0.1) 1%,
+    transparent 40%,
+    transparent 60%,
+    rgba(27, 253, 156, 0.1) 100%
+  );
+  color: var(--green);
+  box-shadow: inset 0 0 10px rgba(27, 253, 156, 0.4),
+    0 0 9px 3px rgba(27, 253, 156, 0.1);
+  cursor: pointer;
+  font-weight: 200;
+  padding: 8px 0px 8px 0px;
+}
+
+#Logout:hover {
+  color: #82ffc9;
+  box-shadow: inset 0 0 10px rgba(27, 253, 156, 0.6),
+    0 0 9px 3px rgba(27, 253, 156, 0.2);
+}
+
+#Logout:before {
+  content: "";
+  position: absolute;
+  left: -4em;
+  width: 4em;
+  height: 100%;
+  top: 0;
+  transition: transform 0.4s ease-in-out;
+  background: linear-gradient(
+    to right,
+    transparent 1%,
+    rgba(27, 253, 156, 0.1) 40%,
+    rgba(27, 253, 156, 0.1) 60%,
+    transparent 100%
+  );
+}
+
+#Logout:hover:before {
+  transform: translateX(15em);
+}
+#Emp-search {
+  background: rgba(13, 13, 13, 0.45);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(6.2px);
+  -webkit-backdrop-filter: blur(6.2px);
+  border: 1px solid rgba(13, 13, 13, 0.18);
+}
+.card {
+  width: 490px;
+  height: 63px;
+  transition: all 0.2s;
+  position: absolute;
+  cursor: pointer;
+  overflow: hidden;
+  top: 0%;
+  left: 28%;
+  border-radius: 50px;
+}
+#Emp-search {
+  position: absolute;
+  top: 11px;
+  left: 41px;
+  width: 410px;
+  height: 40px;
+  background: rgba(28, 27, 27, 0.69);
+  border-radius: 50px;
+  border: none;
+  color: white;
+  padding: 20px;
+  padding-top: 21px;
+  font-family: "poppins";
+  font-size: 20px;
+}
+#Emp-search:focus {
+  outline: none;
+}
+#Emp-search::placeholder {
+  color: white;
+}
+.card-inner {
+  width: inherit;
+  height: inherit;
+  background: rgba(255, 255, 255, 0.1);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.25);
+  backdrop-filter: blur(20px);
+  border-radius: 8px;
+}
+.card i {
+  position: absolute;
+  top: 22px;
+  left: 406px;
+}
+.circle {
+  width: 200px;
+  height: 200px;
+  background: radial-gradient(#3ffcbdaa, #55eebb6d);
+  border-radius: 50%;
+  position: absolute;
+  animation: move-up6 2s ease-in infinite alternate-reverse;
+}
+
+.circle:nth-child(1) {
+  top: -15px;
+  left: -45px;
+}
+
+.circle:nth-child(2) {
+  bottom: -15px;
+  right: -45px;
+  animation-name: move-down1;
+}
+
+@keyframes move-up6 {
+  to {
+    transform: translateY(-100px);
+  }
+}
+
+@keyframes move-down1 {
+  to {
+    transform: translateY(100px);
+  }
+}
+/* Btn css */
+#Register_Form button {
+  --green: #1bfd9c;
+  font-size: 15px;
+  padding: 0.7em 2.7em;
+  letter-spacing: 0.06em;
+  position: absolute;
+  top: 279px;
+  left: 803px;
+  font-family: inherit;
+  border-radius: 0.6em;
+  overflow: hidden;
+  transition: all 0.3s;
+  line-height: 1.4em;
+  border: 2px solid var(--green);
+  background: linear-gradient(
+    to right,
+    rgba(27, 253, 156, 0.1) 1%,
+    transparent 40%,
+    transparent 60%,
+    rgba(27, 253, 156, 0.1) 100%
+  );
+  color: var(--green);
+  box-shadow: inset 0 0 10px rgba(27, 253, 156, 0.4),
+    0 0 9px 3px rgba(27, 253, 156, 0.1);
+  cursor: pointer;
+}
+
+#Register_Form button:hover {
+  color: #82ffc9;
+  box-shadow: inset 0 0 10px rgba(27, 253, 156, 0.6),
+    0 0 9px 3px rgba(27, 253, 156, 0.2);
+}
+
+#Register_Form button:before {
+  content: "";
+  position: absolute;
+  left: -4em;
+  width: 4em;
+  height: 100%;
+  top: 0;
+  transition: transform 0.4s ease-in-out;
+  background: linear-gradient(
+    to right,
+    transparent 1%,
+    rgba(27, 253, 156, 0.1) 40%,
+    rgba(27, 253, 156, 0.1) 60%,
+    transparent 100%
+  );
+}
+
+#Register_Form button:hover:before {
+  transform: translateX(15em);
+}
+table #Delbtn {
+  width: 70px;
+  height: 30px;
+  font-family: monospace;
+  background-color: rgb(255, 0, 0);
+  font-weight: 800;
+  border-radius: 10px;
+  font-size: 15px;
+  color: black;
+  margin: 10px;
+  /* border: black solid 1px; */
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+table #Updbtn {
+  width: 70px;
+  height: 30px;
+  background-color: rgb(255, 145, 0);
+  font-weight: 700;
+  font-size: 15px;
+  font-family: monospace;
+  border-radius: 10px;
+  color: black;
+  /* border: black solid 1px; */
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+table #Delbtn:hover {
+  background-color: rgb(255, 0, 0);
+  box-shadow: 0 0 10px 5px rgb(198, 0, 0);
+}
+table #Updbtn:hover {
+  background-color: rgb(255, 145, 0);
+  box-shadow: 0 0 10px 5px rgb(198, 113, 1);
+}
+

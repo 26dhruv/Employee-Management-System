@@ -1,0 +1,114 @@
+.main h1 {
+  padding: 20px 0px 0px 60px;
+}
+
+/* DocType css */
+
+.DocType {
+  position: absolute;
+  width: 750px;
+  top: 100px;
+  left: 445px;
+}
+
+.DocType input {
+  position: relative;
+  width: 100%;
+  padding: 20px 10px 10px;
+  background: transparent;
+  outline: none;
+  box-shadow: none;
+  border: none;
+  color: #23242a;
+  font-size: 1em;
+  letter-spacing: 0.05em;
+  transition: 0.5s;
+  z-index: 10;
+}
+
+.DocType span {
+  position: absolute;
+  left: 0;
+  padding: 20px 10px 10px;
+  font-size: 1em;
+  color: #8f8f8f;
+  letter-spacing: 00.05em;
+  transition: 0.5s;
+  pointer-events: none;
+}
+
+.DocType input:valid ~ span,
+.DocType input:focus ~ span {
+  color: #45ffc7;
+  transform: translateX(-10px) translateY(-34px);
+  font-size: 0, 75em;
+}
+
+.DocType i {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 2px;
+  background: #45ffc7;
+  border-radius: 4px;
+  transition: 0.5s;
+  pointer-events: none;
+  z-index: 9;
+}
+
+.DocType input:valid ~ i,
+.DocType input:focus ~ i {
+  height: 44px;
+}
+
+#Register_Form button {
+  top: 109px;
+  left: 1311px;
+}
+.Main_Content {
+  position: absolute;
+  top: 200px;
+  left: 419px;
+  width: 70vw;
+  height: 67.6vh;
+  overflow-y: auto;
+  border-radius: 25px;
+}
+.Main_Content::-webkit-scrollbar {
+  border-radius: 8px;
+  width: 5px;
+  background: rgba(28, 27, 27, 0.54);
+  scroll-behavior: smooth;
+}
+.Main_Content::-webkit-scrollbar-thumb {
+  background-color: #3ffcbdaa;
+  border: 1px solid rgba(39, 33, 33, 0.496);
+  border-radius: 50px;
+}
+.Main_Content table {
+  border-collapse: collapse;
+  width: 100%;
+  font-family: "Poppins", sans-serif;
+  font-size: 15px;
+  background: rgba(28, 27, 27, 0.54);
+  border-radius: 16px;
+  box-shadow: 0 5px 32px rgb(0 0 0 / 10%);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+}
+
+.Main_Content th,
+td {
+  text-align: center;
+  padding: 20px;
+  color: #ffffff;
+}
+.Main_Content td {
+  border-bottom: 0.1px solid rgba(229, 226, 226, 0.5);
+}
+.Main_Content th {
+  font-size: 20px;
+  background-color: #3ffcbdaa;
+  color: white;
+}

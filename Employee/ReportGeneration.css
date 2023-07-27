@@ -1,0 +1,213 @@
+.main h1 {
+  padding: 20px 0px 0px 40px;
+}
+
+.Main-Box {
+  position: absolute;
+  top: 25%;
+  left: 24.3%;
+  height: 65vh;
+  width: 74vw;
+  overflow: hidden;
+}
+.Main-Box::-webkit-scrollbar {
+  border-radius: 8px;
+  width: 5px;
+  background: rgba(28, 27, 27, 0.54);
+  scroll-behavior: smooth;
+}
+.Main-Box::-webkit-scrollbar-thumb {
+  background-color: #3ffcbdaa;
+  border: 1px solid rgba(39, 33, 33, 0.496);
+  border-radius: 50px;
+}
+.Salary-Generation h2 {
+  color: white;
+  padding: 30px 0 0 30px;
+}
+p {
+  color: white;
+  font-size: large;
+  position: absolute;
+  right: 130px;
+  top: 20px;
+}
+.Salary-Generation {
+  width: 72vw;
+  height: 12vh;
+  background: rgba(28, 27, 27, 0.74);
+  border-radius: 16px;
+  box-shadow: 0 5px 32px rgb(0 0 0 / 10%);
+  backdrop-filter: blur(1px);
+  -webkit-backdrop-filter: blur(1px);
+  border: 1px solid rgb(206, 217, 239, 0.3);
+  /* position: absolute;
+  left: 24.3%;
+  top: 11%; */
+}
+
+.Name {
+  position: absolute;
+  width: 330px;
+  top: 100px;
+  left: 80px;
+}
+
+.Name select {
+  position: relative;
+  width: 100%;
+  padding: 20px 10px 10px;
+  background: transparent;
+  outline: none;
+  box-shadow: none;
+  border: none;
+  color: #23242a;
+  font-size: 1em;
+  letter-spacing: 0.05em;
+  transition: 0.5s;
+  z-index: 10;
+}
+
+.Name span {
+  position: absolute;
+  left: 0;
+  padding: 20px 10px 10px;
+  font-size: 1em;
+  color: #8f8f8f;
+  letter-spacing: 00.05em;
+  transition: 0.5s;
+  pointer-events: none;
+}
+
+.Name select:valid ~ span,
+.Name select:focus ~ span {
+  color: #45ffc7;
+  transform: translateX(-10px) translateY(-34px);
+  font-size: 0, 75em;
+}
+
+.Name i {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 2px;
+  background: #45ffc7;
+  border-radius: 4px;
+  transition: 0.5s;
+  pointer-events: none;
+  z-index: 9;
+}
+
+.Name select:valid ~ i,
+.Name select:focus ~ i {
+  height: 44px;
+}
+/* Btn css */
+#Register_Form button {
+  --green: #1bfd9c;
+  font-size: 15px;
+  padding: 0.7em 2.7em;
+  letter-spacing: 0.06em;
+  position: absolute;
+  top: 25px;
+  left: 300px;
+  font-family: inherit;
+  border-radius: 0.6em;
+  overflow: hidden;
+  transition: all 0.3s;
+  line-height: 1.4em;
+  border: 2px solid var(--green);
+  background: linear-gradient(
+    to right,
+    rgba(27, 253, 156, 0.1) 1%,
+    transparent 40%,
+    transparent 60%,
+    rgba(27, 253, 156, 0.1) 100%
+  );
+  color: var(--green);
+  box-shadow: inset 0 0 10px rgba(27, 253, 156, 0.4),
+    0 0 9px 3px rgba(27, 253, 156, 0.1);
+  cursor: pointer;
+}
+
+#Register_Form button:hover {
+  color: #82ffc9;
+  box-shadow: inset 0 0 10px rgba(27, 253, 156, 0.6),
+    0 0 9px 3px rgba(27, 253, 156, 0.2);
+}
+
+#Register_Form button:before {
+  content: "";
+  position: absolute;
+  left: -4em;
+  width: 4em;
+  height: 100%;
+  top: 0;
+  transition: transform 0.4s ease-in-out;
+  background: linear-gradient(
+    to right,
+    transparent 1%,
+    rgba(27, 253, 156, 0.1) 40%,
+    rgba(27, 253, 156, 0.1) 60%,
+    transparent 100%
+  );
+}
+
+#Register_Form button:hover:before {
+  transform: translateX(15em);
+}
+
+.Consolidated-Salary {
+  width: 72vw;
+  height: 12vh;
+  background: rgba(28, 27, 27, 0.74);
+  border-radius: 16px;
+  box-shadow: 0 5px 32px rgb(0 0 0 / 10%);
+  backdrop-filter: blur(1px);
+  -webkit-backdrop-filter: blur(1px);
+  border: 1px solid rgb(206, 217, 239, 0.3);
+  position: absolute;
+  /* left: 24.3%; */
+  top: 20%;
+}
+.Consolidated-Salary h2 {
+  color: white;
+  padding: 30px 0 0 30px;
+}
+
+.Employee-Details {
+  width: 72vw;
+  height: 12vh;
+  background: rgba(28, 27, 27, 0.74);
+  border-radius: 16px;
+  box-shadow: 0 5px 32px rgb(0 0 0 / 10%);
+  backdrop-filter: blur(1px);
+  -webkit-backdrop-filter: blur(1px);
+  border: 1px solid rgb(206, 217, 239, 0.3);
+  position: absolute;
+  /* left: 24.3%; */
+  top: 40%;
+}
+.Employee-Details h2 {
+  color: white;
+  padding: 30px 0 0 30px;
+}
+
+.Leave-Details {
+  width: 72vw;
+  height: 12vh;
+  background: rgba(28, 27, 27, 0.74);
+  border-radius: 16px;
+  box-shadow: 0 5px 32px rgb(0 0 0 / 10%);
+  backdrop-filter: blur(1px);
+  -webkit-backdrop-filter: blur(1px);
+  border: 1px solid rgb(206, 217, 239, 0.3);
+  position: absolute;
+  /* left: 24.3%; */
+  top: 60%;
+}
+.Leave-Details h2 {
+  color: white;
+  padding: 30px 0 0 30px;
+}

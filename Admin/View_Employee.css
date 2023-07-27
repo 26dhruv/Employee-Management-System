@@ -1,0 +1,134 @@
+.main h1 {
+  padding-left: 70px;
+  padding-top: 20px;
+}
+#Emp-search {
+  background: rgba(13, 13, 13, 0.45);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(6.2px);
+  -webkit-backdrop-filter: blur(6.2px);
+  border: 1px solid rgba(13, 13, 13, 0.18);
+}
+.card {
+  width: 490px;
+  height: 63px;
+  transition: all 0.2s;
+  position: absolute;
+  cursor: pointer;
+  overflow: hidden;
+  top: 0%;
+  left: 28%;
+  border-radius: 50px;
+}
+#Emp-search {
+  position: absolute;
+  top: 11px;
+  left: 41px;
+  width: 410px;
+  height: 40px;
+  background: rgba(28, 27, 27, 0.69);
+  border-radius: 50px;
+  border: none;
+  color: white;
+  padding: 20px;
+  padding-top: 21px;
+  font-family: "poppins";
+  font-size: 20px;
+}
+#Emp-search:focus {
+  outline: none;
+}
+#Emp-search::placeholder {
+  color: white;
+}
+.card-inner {
+  width: inherit;
+  height: inherit;
+  background: rgba(255, 255, 255, 0.1);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.25);
+  backdrop-filter: blur(20px);
+  border-radius: 8px;
+}
+
+.circle {
+  width: 200px;
+  height: 200px;
+  background: radial-gradient(#3ffcbdaa, #55eebb6d);
+  border-radius: 50%;
+  position: absolute;
+  animation: move-up6 2s ease-in infinite alternate-reverse;
+}
+
+.circle:nth-child(1) {
+  top: -15px;
+  left: -45px;
+}
+
+.circle:nth-child(2) {
+  bottom: -15px;
+  right: -45px;
+  animation-name: move-down1;
+}
+
+@keyframes move-up6 {
+  to {
+    transform: translateY(-100px);
+  }
+}
+
+@keyframes move-down1 {
+  to {
+    transform: translateY(100px);
+  }
+}
+.Main_Content {
+  position: absolute;
+  top: 115px;
+  left: 419px;
+  width: 70vw;
+  height: 77.6vh;
+  overflow-y: auto;
+  border-radius: 25px;
+}
+.Main_Content::-webkit-scrollbar {
+  border-radius: 8px;
+  width: 5px;
+  background: rgba(28, 27, 27, 0.54);
+  scroll-behavior: smooth;
+}
+.Main_Content::-webkit-scrollbar-thumb {
+  background-color: #3ffcbdaa;
+  border: 1px solid rgba(39, 33, 33, 0.496);
+  border-radius: 50px;
+}
+.Main_Content table {
+  border-collapse: collapse;
+  width: 100%;
+  font-family: "Poppins", sans-serif;
+  font-size: 15px;
+  /* position: absolute;
+  top: 310px;
+  left: 430px; */
+
+  background: rgba(28, 27, 27, 0.54);
+  border-radius: 16px;
+  box-shadow: 0 5px 32px rgb(0 0 0 / 10%);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+}
+
+.Main_Content th,
+td {
+  text-align: center;
+  padding: 20px;
+  color: #ffffff;
+}
+.Main_Content td {
+  border-bottom: 0.1px solid rgba(229, 226, 226, 0.5);
+}
+.Main_Content th {
+  font-size: 20px;
+  background-color: #3ffcbdaa;
+  color: white;
+}

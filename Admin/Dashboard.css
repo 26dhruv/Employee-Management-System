@@ -1,0 +1,413 @@
+.main h1 {
+  padding-top: 20px;
+  padding-left: 110px;
+}
+
+.sidebar {
+  position: absolute;
+  top: 74px;
+  left: -360px;
+}
+/* emp-brief */
+
+.container-emp {
+  position: absolute;
+  font-family: "Poppins", sans-serif;
+  left: 26%;
+  top: 18%;
+}
+
+.container-emp::before,
+.container-emp::after {
+  content: "";
+  background-color: #727272a5;
+  position: absolute;
+}
+
+.container-emp::before {
+  border-radius: 50%;
+  width: 6rem;
+  height: 6rem;
+  top: 30%;
+  right: 2%;
+}
+
+.container-emp::after {
+  content: "";
+  position: absolute;
+  height: 3rem;
+  top: 8%;
+  right: 5%;
+  border: 1px white solid;
+}
+
+.container-emp .box {
+  width: 14.875em;
+  height: 8.875em;
+  padding: 1rem;
+  background: rgba(0, 0, 0, 0.4);
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+  border: 1px solid rgba(255, 255, 255, 0.16);
+  border-radius: 0.7rem;
+  transition: all ease 0.3s;
+}
+
+.container-emp .box {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.container-emp .box .title {
+  font-size: 1.5rem;
+  font-weight: 500;
+  letter-spacing: 0.1em;
+  color: #ffffff;
+}
+
+.container-emp .box div p {
+  margin: 0;
+  font-size: 1.2rem;
+  font-weight: 400;
+  letter-spacing: 0.1em;
+  position: relative;
+  left: 90px;
+  color: #ffffff;
+}
+.container-emp .box:hover {
+  box-shadow: 0px 0px 20px 1px #727272a5;
+  border: 1px solid rgba(255, 255, 255, 0.454);
+}
+
+/* dept-brief */
+
+.container-dept {
+  position: absolute;
+  font-family: "Poppins", sans-serif;
+  left: 44%;
+  top: 18%;
+}
+
+.container-dept::before,
+.container-dept::after {
+  content: "";
+  background-color: #70facc4c;
+  position: absolute;
+}
+
+.container-dept::before {
+  border-radius: 50%;
+  width: 6rem;
+  height: 6rem;
+  top: 30%;
+  right: 2%;
+}
+
+.container-dept::after {
+  content: "";
+  position: absolute;
+  height: 3rem;
+  top: 8%;
+  right: 5%;
+  border: 1px white solid;
+}
+
+.container-dept .box {
+  width: 14.875em;
+  height: 8.875em;
+  padding: 1rem;
+  background: rgba(0, 0, 0, 0.4);
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+  border: 1px solid rgba(255, 255, 255, 0.16);
+  border-radius: 0.7rem;
+  transition: all ease 0.3s;
+}
+
+.container-dept .box {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.container-dept .box .title {
+  font-size: 1.5rem;
+  font-weight: 500;
+  letter-spacing: 0.1em;
+  color: #ffffff;
+}
+
+.container-dept .box div p {
+  margin: 0;
+  font-size: 1.2rem;
+  font-weight: 400;
+  letter-spacing: 0.1em;
+  position: relative;
+  left: 90px;
+  color: #ffffff;
+}
+.container-dept .box:hover {
+  box-shadow: 0px 0px 20px 1px #70facc4c;
+  border: 1px solid rgba(255, 255, 255, 0.454);
+}
+
+/* desig-breif */
+
+.container-desig {
+  position: absolute;
+  font-family: "Poppins", sans-serif;
+  left: 62%;
+  top: 18%;
+  z-index: -999;
+}
+
+.container-desig::before,
+.container-desig::after {
+  content: "";
+  background-color: #e3fa704c;
+  position: absolute;
+}
+
+.container-desig::before {
+  border-radius: 50%;
+  width: 6rem;
+  height: 6rem;
+  top: 30%;
+  right: 2%;
+}
+
+.container-desig::after {
+  content: "";
+  position: absolute;
+  height: 3rem;
+  top: 8%;
+  right: 5%;
+  border: 1px white solid;
+}
+
+.container-desig .box {
+  width: 14.875em;
+  height: 8.875em;
+  padding: 1rem;
+  background: rgba(0, 0, 0, 0.4);
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+  border: 1px solid rgba(255, 255, 255, 0.16);
+  border-radius: 0.7rem;
+  transition: all ease 0.3s;
+}
+
+.container-desig .box {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.container-desig .box .title {
+  font-size: 1.5rem;
+  font-weight: 500;
+  letter-spacing: 0.1em;
+  color: #ffffff;
+}
+
+.container-desig .box div p {
+  margin: 0;
+  font-size: 1.2rem;
+  font-weight: 400;
+  letter-spacing: 0.1em;
+  position: relative;
+  left: 90px;
+  color: #ffffff;
+}
+.container-desig .box:hover {
+  box-shadow: 0px 0px 20px 1px #e3fa704c;
+  border: 1px solid rgba(255, 255, 255, 0.454);
+}
+
+/* role-breif */
+
+.container-role {
+  position: absolute;
+  font-family: "Poppins", sans-serif;
+  left: 80%;
+  top: 18%;
+  z-index: -999;
+}
+
+.container-role::before,
+.container-role::after {
+  content: "";
+  background-color: #fa70dc4c;
+  position: absolute;
+}
+
+.container-role::before {
+  border-radius: 50%;
+  width: 6rem;
+  height: 6rem;
+  top: 30%;
+  right: 2%;
+}
+
+.container-role::after {
+  content: "";
+  position: absolute;
+  height: 3rem;
+  top: 8%;
+  right: 5%;
+  border: 1px white solid;
+}
+
+.container-role .box {
+  width: 14.875em;
+  height: 8.875em;
+  padding: 1rem;
+  background: rgba(0, 0, 0, 0.4);
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+  border: 1px solid rgba(255, 255, 255, 0.16);
+  border-radius: 0.7rem;
+  transition: all ease 0.3s;
+}
+
+.container-role .box {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.container-role .box .title {
+  font-size: 1.5rem;
+  font-weight: 500;
+  letter-spacing: 0.1em;
+  color: #ffffff;
+}
+
+.container-role .box div p {
+  margin: 0;
+  font-size: 1.2rem;
+  font-weight: 400;
+  letter-spacing: 0.1em;
+  position: relative;
+  left: 90px;
+  color: #ffffff;
+}
+.container-role .box:hover {
+  box-shadow: 0px 0px 20px 1px #fa70dc4c;
+  border: 1px solid rgba(255, 255, 255, 0.454);
+}
+
+#bell-btn {
+  position: absolute;
+  right: 16px;
+  top: 7px;
+  width: 50px;
+  height: 50px;
+  background: none;
+  border: none;
+  padding: 12px 13px;
+  border-radius: 20px;
+}
+#bell-btn:hover {
+  background: rgba(162, 238, 96, 0.609);
+  transition: 0.5s;
+}
+
+#bell-btn svg {
+  color: #fff;
+}
+#popup-menu {
+  width: 400px;
+  height: 700px;
+  background-color: white;
+  z-index: 1000;
+  position: absolute;
+  right: 8px;
+  top: 70px;
+  border-radius: 20px;
+  display: none;
+  overflow: hidden;
+}
+#popup-menu p {
+  color: black;
+  font-family: "poppins";
+  font-weight: 500;
+  font-size: 40px;
+  padding: 20px 40px;
+}
+#popup-menu svg {
+  position: absolute;
+  top: 16px;
+  left: 15px;
+}
+#popup-menu i {
+  position: absolute;
+  top: 22px;
+  right: 30px;
+  background-color: rgb(233, 226, 226);
+  width: 50px;
+  height: 50px;
+  border-radius: 50px;
+  -webkit-box-shadow: 7px 7px 24px -11px rgba(0, 0, 0, 0.88);
+  -moz-box-shadow: 7px 7px 24px -11px rgba(0, 0, 0, 0.88);
+  box-shadow: 7px 7px 24px -11px rgba(0, 0, 0, 0.88);
+}
+#popup-menu button {
+  left: 340px;
+}
+#popup-menu button:hover {
+  background: none;
+}
+#For-add-notification {
+  display: none;
+  background-color: rgb(233, 226, 226);
+  position: relative;
+  left: 10px;
+  width: 380px;
+  height: 200px;
+  border-radius: 10px;
+}
+#For-add-notification #notification {
+  cursor: pointer;
+  resize: none;
+  outline: none;
+  border: none;
+  width: 350px;
+  margin: 13px 10px 10px 14px;
+  border-radius: 10px;
+  padding: 10px;
+  -webkit-box-shadow: 7px 7px 24px -11px rgba(0, 0, 0, 0.88);
+  -moz-box-shadow: 7px 7px 24px -11px rgba(0, 0, 0, 0.88);
+  box-shadow: 7px 7px 24px -11px rgba(0, 0, 0, 0.88);
+}
+#For-add-notification #send-btn {
+  width: 50px;
+  height: 30px;
+  position: relative;
+  top: 4px;
+  left: 300px;
+  border-radius: 4px;
+  outline: none;
+  border: none;
+  background-color: #629868;
+}
+.Name {
+  position: absolute;
+  top: 158px;
+  left: 100px;
+}
+.Name select {
+  color: black;
+  width: 190px;
+  height: 20px;
+  outline: none;
+  border: none;
+  -webkit-box-shadow: 7px 7px 24px -11px rgba(0, 0, 0, 0.88);
+  -moz-box-shadow: 7px 7px 24px -11px rgba(0, 0, 0, 0.88);
+  box-shadow: 7px 7px 24px -11px rgba(0, 0, 0, 0.88);
+}
+.Name Label {
+  position: absolute;
+  left: -70px;
+}

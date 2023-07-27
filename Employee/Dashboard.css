@@ -1,0 +1,289 @@
+.main h1 {
+  padding-top: 20px;
+  padding-left: 100px;
+}
+/* remainleave-brief */
+
+.container-remainleave {
+  position: absolute;
+  font-family: "Poppins", sans-serif;
+  left: 26%;
+  top: 18%;
+}
+
+.container-remainleave::before,
+.container-remainleave::after {
+  content: "";
+  background-color: #727272a5;
+  position: absolute;
+}
+
+.container-remainleave::before {
+  border-radius: 50%;
+  width: 6rem;
+  height: 6rem;
+  top: 30%;
+  right: 2%;
+}
+
+.container-remainleave::after {
+  content: "";
+  position: absolute;
+  height: 3rem;
+  top: 8%;
+  right: 5%;
+  border: 1px white solid;
+}
+
+.container-remainleave .box {
+  width: 14.875em;
+  height: 8.875em;
+  padding: 1rem;
+  background: rgba(0, 0, 0, 0.4);
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+  border: 1px solid rgba(255, 255, 255, 0.16);
+  border-radius: 0.7rem;
+  transition: all ease 0.3s;
+}
+
+.container-remainleave .box {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.container-remainleave .box .title {
+  font-size: 1.5rem;
+  font-weight: 500;
+  letter-spacing: 0.1em;
+  color: #ffffff;
+}
+
+.container-remainleave .box div p {
+  margin: 0;
+  font-size: 1.2rem;
+  font-weight: 400;
+  letter-spacing: 0.1em;
+  position: relative;
+  left: 90px;
+  color: #ffffff;
+}
+.container-remainleave .box:hover {
+  box-shadow: 0px 0px 20px 1px #727272a5;
+  border: 1px solid rgba(255, 255, 255, 0.454);
+}
+
+/* meeting-brief */
+
+.container-meeting {
+  position: absolute;
+  font-family: "Poppins", sans-serif;
+  left: 44%;
+  top: 18%;
+}
+
+.container-meeting::before,
+.container-meeting::after {
+  content: "";
+  background-color: #70facc4c;
+  position: absolute;
+}
+
+.container-meeting::before {
+  border-radius: 50%;
+  width: 6rem;
+  height: 6rem;
+  top: 30%;
+  right: 2%;
+}
+
+.container-meeting::after {
+  content: "";
+  position: absolute;
+  height: 3rem;
+  top: 8%;
+  right: 5%;
+  border: 1px white solid;
+}
+
+.container-meeting .box {
+  width: 14.875em;
+  height: 8.875em;
+  padding: 1rem;
+  background: rgba(0, 0, 0, 0.4);
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+  border: 1px solid rgba(255, 255, 255, 0.16);
+  border-radius: 0.7rem;
+  transition: all ease 0.3s;
+}
+
+.container-meeting .box {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.container-meeting .box .title {
+  font-size: 1.5rem;
+  font-weight: 500;
+  letter-spacing: 0.1em;
+  color: #ffffff;
+}
+
+.container-meeting .box div p {
+  margin: 0;
+  font-size: 1.2rem;
+  font-weight: 400;
+  letter-spacing: 0.1em;
+  position: relative;
+  left: 90px;
+  color: #ffffff;
+}
+.container-meeting .box:hover {
+  box-shadow: 0px 0px 20px 1px #70facc4c;
+  border: 1px solid rgba(255, 255, 255, 0.454);
+}
+
+/* issue container */
+.container-issues {
+  position: absolute;
+  font-family: "Poppins", sans-serif;
+  left: 62%;
+  top: 18%;
+  z-index: -999;
+}
+
+.container-issues::before,
+.container-issues::after {
+  content: "";
+  background-color: #6a167da4;
+  position: absolute;
+}
+
+.container-issues::before {
+  border-radius: 50%;
+  width: 6rem;
+  height: 6rem;
+  top: 30%;
+  right: 2%;
+}
+
+.container-issues::after {
+  content: "";
+  position: absolute;
+  height: 3rem;
+  top: 8%;
+  right: 5%;
+  border: 1px white solid;
+}
+
+.container-issues .box {
+  width: 14.875em;
+  height: 8.875em;
+  padding: 1rem;
+  background: rgba(0, 0, 0, 0.4);
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+  border: 1px solid rgba(255, 255, 255, 0.16);
+  border-radius: 0.7rem;
+  transition: all ease 0.3s;
+}
+
+.container-issues .box {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.container-issues .box .title {
+  font-size: 1.5rem;
+  font-weight: 500;
+  letter-spacing: 0.1em;
+  color: #ffffff;
+}
+
+.container-issues .box div p {
+  margin: 0;
+  font-size: 1.2rem;
+  font-weight: 400;
+  letter-spacing: 0.1em;
+  position: relative;
+  left: 90px;
+  color: #ffffff;
+}
+.container-issues .box:hover {
+  box-shadow: 0px 0px 20px 1px #6a167da4;
+  border: 1px solid rgba(255, 255, 255, 0.454);
+}
+.notif button {
+  position: absolute;
+  right: 16px;
+  top: 7px;
+  width: 50px;
+  height: 50px;
+  background: none;
+  border: none;
+  padding: 12px 13px;
+  border-radius: 20px;
+}
+
+.notif button:hover {
+  background: rgba(162, 238, 96, 0.609);
+  transition: 0.5s;
+}
+
+.notif svg {
+  color: #fff;
+}
+#popup-menu {
+  width: 400px;
+  height: 700px;
+  background-color: white;
+  z-index: -998;
+  position: absolute;
+  right: 8px;
+  top: 70px;
+  border-radius: 20px;
+  display: none;
+  overflow: hidden;
+}
+.single-notification p {
+  position: relative;
+  top: 55px;
+  left: 80px;
+  width: 200px;
+}
+
+.styled-table {
+  border-collapse: collapse;
+  margin: 25px 0;
+  font-size: 0.9em;
+  font-family: sans-serif;
+  min-width: 400px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+}
+.styled-table thead tr {
+  background-color: #009879;
+  color: #ffffff;
+  text-align: left;
+}
+.styled-table th,
+.styled-table td {
+  padding: 12px 15px;
+}
+
+.styled-table tbody tr {
+  border-bottom: 1px solid #000000;
+}
+.styled-table tbody tr:nth-of-type(even) {
+  background-color: #f3f3f3;
+}
+.styled-table tbody tr:last-of-type {
+  border-bottom: 2px solid #009879;
+}
+.styled-table tbody tr.active-row {
+  font-weight: bold;
+  color: #009879;
+}

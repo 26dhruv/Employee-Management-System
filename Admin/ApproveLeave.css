@@ -1,0 +1,322 @@
+.main h1 {
+  padding-left: 70px;
+  padding-top: 20px;
+}
+#Emp-search {
+  background: rgba(13, 13, 13, 0.45);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(6.2px);
+  -webkit-backdrop-filter: blur(6.2px);
+  border: 1px solid rgba(13, 13, 13, 0.18);
+}
+.card {
+  width: 490px;
+  height: 63px;
+  transition: all 0.2s;
+  position: absolute;
+  cursor: pointer;
+  overflow: hidden;
+  top: 0%;
+  left: 28%;
+  border-radius: 50px;
+}
+#Emp-search {
+  position: absolute;
+  top: 11px;
+  left: 41px;
+  width: 410px;
+  height: 40px;
+  background: rgba(28, 27, 27, 0.69);
+  border-radius: 50px;
+  border: none;
+  color: white;
+  padding: 20px;
+  padding-top: 21px;
+  font-family: "poppins";
+  font-size: 20px;
+}
+#Emp-search:focus {
+  outline: none;
+}
+#Emp-search::placeholder {
+  color: white;
+}
+.card-inner {
+  width: inherit;
+  height: inherit;
+  background: rgba(255, 255, 255, 0.1);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.25);
+  backdrop-filter: blur(20px);
+  border-radius: 8px;
+}
+
+.circle {
+  width: 200px;
+  height: 200px;
+  background: radial-gradient(#3ffcbdaa, #55eebb6d);
+  border-radius: 50%;
+  position: absolute;
+  animation: move-up6 2s ease-in infinite alternate-reverse;
+}
+
+.circle:nth-child(1) {
+  top: -15px;
+  left: -45px;
+}
+
+.circle:nth-child(2) {
+  bottom: -15px;
+  right: -45px;
+  animation-name: move-down1;
+}
+
+@keyframes move-up6 {
+  to {
+    transform: translateY(-100px);
+  }
+}
+
+@keyframes move-down1 {
+  to {
+    transform: translateY(100px);
+  }
+}
+.Main_Content {
+  position: absolute;
+  top: 115px;
+  left: 419px;
+  width: 70vw;
+  height: 77.6vh;
+  overflow-y: auto;
+  border-radius: 25px;
+}
+.Main_Content::-webkit-scrollbar {
+  border-radius: 8px;
+  width: 5px;
+  background: rgba(28, 27, 27, 0.54);
+  scroll-behavior: smooth;
+}
+.Main_Content::-webkit-scrollbar-thumb {
+  background-color: #3ffcbdaa;
+  border: 1px solid rgba(39, 33, 33, 0.496);
+  border-radius: 50px;
+}
+.Main_Content table {
+  border-collapse: collapse;
+  width: 100%;
+  font-family: "Poppins", sans-serif;
+  font-size: 15px;
+  /* position: absolute;
+    top: 310px;
+    left: 430px; */
+
+  background: rgba(28, 27, 27, 0.54);
+  border-radius: 16px;
+  box-shadow: 0 5px 32px rgb(0 0 0 / 10%);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+}
+
+.Main_Content th,
+td {
+  text-align: center;
+  padding: 20px;
+  color: #ffffff;
+}
+.Main_Content td {
+  border-bottom: 0.1px solid rgba(229, 226, 226, 0.5);
+}
+.Main_Content th {
+  font-size: 20px;
+  background-color: #3ffcbdaa;
+  color: white;
+}
+
+/* .RejectReason */
+.RejectReason {
+  position: absolute;
+  width: 670px;
+  top: 140px;
+  left: 55px;
+}
+
+.RejectReason textarea {
+  position: relative;
+  width: 100%;
+  padding: 20px 10px 10px;
+  background: transparent;
+  outline: none;
+  box-shadow: none;
+  border: none;
+  color: #23242a;
+  font-size: 1em;
+  letter-spacing: 0.05em;
+  transition: 0.5s;
+  z-index: 10;
+  resize: none;
+  height: 190px;
+}
+
+.RejectReason span {
+  position: absolute;
+  left: 0;
+  top: 130px;
+  padding: 20px 10px 10px;
+  font-size: 1em;
+  color: #8f8f8f;
+  letter-spacing: 00.05em;
+  transition: 0.7s;
+  pointer-events: none;
+}
+
+.RejectReason textarea:valid ~ span,
+.RejectReason textarea:focus ~ span {
+  color: #45ffc7;
+  transform: translateX(-10px) translateY(-163px);
+  font-size: 0, 75em;
+}
+
+.RejectReason i {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 2px;
+  background: #45ffc7;
+  border-radius: 4px;
+  transition: 0.7s;
+  pointer-events: none;
+  z-index: 9;
+}
+
+.RejectReason textarea:valid ~ i,
+.RejectReason textarea:focus ~ i {
+  height: 180px;
+}
+
+/* .status */
+.Status {
+  position: absolute;
+  width: 670px;
+  top: 70px;
+  left: 55px;
+}
+
+.Status select {
+  position: relative;
+  width: 100%;
+  padding: 20px 10px 10px;
+  background: transparent;
+  outline: none;
+  box-shadow: none;
+  border: none;
+  color: #23242a;
+  font-size: 1em;
+  letter-spacing: 0.05em;
+  transition: 0.5s;
+  z-index: 10;
+}
+
+.Status span {
+  position: absolute;
+  left: 0;
+  padding: 20px 10px 10px;
+  font-size: 1em;
+  color: #8f8f8f;
+  letter-spacing: 00.05em;
+  transition: 0.5s;
+  pointer-events: none;
+}
+
+.Status select:valid ~ span,
+.Status select:focus ~ span {
+  color: #45ffc7;
+  transform: translateX(-10px) translateY(-34px);
+  font-size: 0, 75em;
+}
+
+.Status i {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 2px;
+  background: #45ffc7;
+  border-radius: 4px;
+  transition: 0.5s;
+  pointer-events: none;
+  z-index: 9;
+}
+
+.Status select:valid ~ i,
+.Status select:focus ~ i {
+  height: 44px;
+}
+
+#done {
+  width: 100px;
+  height: 40px;
+  position: absolute;
+  right: 200px;
+  bottom: 20px;
+  background-color: #45ffc7;
+  font-weight: 600;
+  font-size: larger;
+  border-radius: 8px;
+}
+#cancel {
+  width: 100px;
+  height: 40px;
+  position: absolute;
+  right: 80px;
+  bottom: 20px;
+  background-color: #fc3f3f97;
+  font-weight: 600;
+  font-size: larger;
+  border-radius: 8px;
+  text-align: center;
+  padding-top: 5px;
+  text-decoration: none;
+  color: #000000;
+}
+
+.overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 999;
+  display: none;
+}
+
+.PopupMenu {
+  width: 790px;
+  height: 414px;
+  background: rgba(12, 12, 12, 0.74);
+  border-radius: 16px;
+  box-shadow: 0 5px 32px rgb(0 0 0 / 10%);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  border: 1px solid rgb(206, 217, 239, 0.3);
+  position: fixed;
+  top: 20px;
+  left: 575px;
+  display: none;
+  z-index: 1000;
+}
+.PopupMenu.show3 {
+  display: block;
+}
+
+.PopupMenu p {
+  color: white;
+  font-size: 30px;
+  font-weight: 500;
+  position: relative;
+  top: 15px;
+  left: 40px;
+  z-index: 20;
+}
